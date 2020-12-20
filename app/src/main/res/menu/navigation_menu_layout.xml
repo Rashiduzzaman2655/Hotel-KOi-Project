@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeId"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/profileId"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile">
+
+        </item>
+        <item
+            android:id="@+id/chatId"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Chat">
+
+        </item>
+
+
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/shareId"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share">
+
+            </item>
+            <item
+                android:id="@+id/contactId"
+                android:icon="@drawable/ic_baseline_contact_phone_24"
+                android:title="Contact">
+
+            </item>
+
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".long_beach_suites">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ds"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="Long Beach Suites"
+            android:fontFamily="@font/font"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#DF2979FF"
+            android:textAppearance="@android:style/TextAppearance.Large">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/long_beach1">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="15dp"
+            android:src="@drawable/long2">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="15dp"
+            android:src="@drawable/long3">
+
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alignmentMode="alignMargins"
+                android:clickable="true"
+                android:columnCount="1"
+                android:columnOrderPreserved="true"
+                android:rowCount="1">
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:clickable="true"
+            android:columnCount="1"
+            android:columnOrderPreserved="true"
+            android:rowCount="1">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:contextClickable="true"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Long Beach Hotel"
+                        android:textAppearance="@android:style/TextAppearance.Large">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="5-star hotel"
+                        android:textAppearance="@android:style/TextAppearance.Small">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BAF Airport Rd, Dhaka 1206•06629-834555"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BDT 10,820">
+                    </TextView>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:contextClickable="true"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Long Beach Hotel Blog"
+                        android:textAppearance="@android:style/TextAppearance.Large">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/reviewId"
+                            android:drawableRight="@drawable/ic_baseline_rate_review_24"
+                            android:layout_marginLeft="53dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColor3"
+                            android:text="Review">
+
+                        </Button>
+                        <Button
+                            android:id="@+id/webviewId"
+                            android:layout_marginLeft="10dp"
+                            android:drawableRight="@drawable/ic_baseline_open_in_browser_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColor3"
+                            android:text="Website">
+
+                        </Button>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:contextClickable="true"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+
+                <LinearLayout
+                    android:layout_margin="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select your booking Date:"
+                        android:textAppearance="@android:style/TextAppearance.Large">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Your Bokking Date:"
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="6dp"
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DD/MM/YYYY"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        >
+                    </TextView>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <Button
+
+                            android:layout_marginTop="18dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:id="@+id/button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="From"
+                            android:textColor="@color/textColor3"
+                            android:textStyle="bold"
+
+                            >
+
+                        </Button>
+                        <Button
+                            android:layout_marginTop="18dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center"
+                            android:id="@+id/confirm_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Booking"
+                            android:textColor="@color/textColor3"
+                            android:textStyle="bold"
+
+                            >
+
+                        </Button>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#B2FFC400"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hotel KOi"
+    android:textColor="@android:color/white"
+    android:textAppearance="@android:style/TextAppearance.Large"
+    android:paddingTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy your journey and stay safe"
+        android:textColor="@android:color/white"
+        android:paddingTop="8dp"/>
+
+
+</LinearLayout>

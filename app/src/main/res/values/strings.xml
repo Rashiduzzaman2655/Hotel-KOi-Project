@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Hotel Koi </string>
+    <string name="getStarted">Get Started</string>
+    <string name="todo">TODO</string>
+    <string name="wlc">happy Shopping!</string>
+    <string name="signUp">Sign Up</string>
+    <string name="Login">Login</string>
+    <string name="FPass">Forgot Password?</string>
+    <string name="signIn">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="veloce">Veloce 2020</string>
+    <string name="dtAccount">Don\'t have an account?</string>
+    <string name="snUpHere">Sign Up here</string>
+    <string name="trending">Trending</string>
+    <string name="trendingDes">Mountain Bikes - Butted Hydro Formed</string>
+    <string name="bestSellProduct">Best Selling Products</string>
+    <string name="veloceLegion30">Veloce Legion 30</string>
+    <string name="butted">Butted Hydro formed</string>
+    <string name="dollarsign">$</string>
+    <string name="_250">250</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="Hotel_Name">
+        <item>Radisson</item>
+        <item>Spacific Sonargong</item>
+        <item>Long Beach Suites</item>
+        <item>Regency</item>
+        <item>Rich Mond</item>
+        <item>Sarina</item>
+        <item>Sayaji</item>
+
+
+    </string-array>
+
+</resources>

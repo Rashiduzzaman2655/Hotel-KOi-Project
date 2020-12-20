@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    >
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="155dp"
+
+            android:background="@drawable/ic_hotel_lgo"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="@string/signIn"
+            android:textStyle="bold"
+            android:textColor="@color/textColor3"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/username"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="@string/Username"
+            android:inputType="text"
+            android:padding="15dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:padding="15dp">
+
+        </EditText>
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_marginBottom="10dp"
+            android:layout_width="191dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ui"
+            android:text="@string/Login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_bold">
+        </Button>
+
+        <TextView
+            android:id="@+id/forgetPass"
+            android:layout_marginTop="1dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/orangeSec"
+            android:textSize="17sp"
+            android:text="@string/FPass">
+        </TextView>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:gravity="end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/facebook"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/ic_fb"
+                    android:contentDescription="@string/todo">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/ic_googleplus"
+                    android:contentDescription="@string/todo">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/ic_twitter"
+                    android:contentDescription="@string/todo">
+
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:padding="7dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dtAccount"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="17sp">
+            </TextView>
+            <TextView
+                android:clickable="true"
+                android:id="@+id/signup"
+                android:padding="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/snUpHere"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/orangeSec"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="17sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
